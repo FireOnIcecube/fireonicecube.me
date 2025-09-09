@@ -1,5 +1,8 @@
 {
   "name": "@pkg/typescript-config",
   "version": "1.0.0",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "@vue/tsconfig": "^0.7.0"
+  }
 }
