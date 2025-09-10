@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "@pkg/typescript-config": "workspace:*",
+    "@pkg/eslint-config": "workspace:*",
     "@tsconfig/node22": "^22.0.2",
     "@types/node": "^22.16.5",
     "@vitejs/plugin-vue": "^6.0.1",
