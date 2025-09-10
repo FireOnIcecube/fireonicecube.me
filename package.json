@@ -11,7 +11,13 @@
   "license": "ISC",
   "packageManager": "pnpm@10.15.0",
   "devDependencies": {
-    "turbo": "^2.5.6"
+    "@types/node": "^22.18.1",
+    "eslint": "^9.35.0",
+    "eslint-plugin-vue": "~10.3.0",
+    "prettier": "3.6.2",
+    "turbo": "^2.5.6",
+    "typescript": "~5.8.3",
+    "vue-tsc": "^3.0.6"
   },
   "workspaces": [
     "apps/*",
