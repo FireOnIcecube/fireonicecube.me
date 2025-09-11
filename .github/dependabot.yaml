@@ -42,7 +42,7 @@ updates:
 
   # packages/typescript-config
   - package-ecosystem: 'npm'
-    directory: '/package/typescript-config'
+    directory: '/packages/typescript-config'
     schedule:
       interval: 'weekly'
     commit-message:
