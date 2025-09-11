@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "@pkg/eslint-config": "workspace:*",
+    "@pkg/tailwind-config": "workspace:*",
     "@pkg/typescript-config": "workspace:*",
     "@vitejs/plugin-vue": "^6.0.1",
     "@vitejs/plugin-vue-jsx": "^5.0.1",

@@ -1,0 +1,10 @@
+{
+  "name": "@pkg/tailwind-config",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "exports": {
+    ".": "./shared-styles.css",
+    "./postcss": "./postcss.config.js"
+  }
+}
