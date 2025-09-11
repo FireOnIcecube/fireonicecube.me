@@ -1,9 +1,49 @@
 version: 2
 updates:
-  #根目錄 (根目錄)
-  - package-ecosystem: "npm"
-    directory: "/"
+  # 根目錄 (根目錄)
+  - package-ecosystem: 'npm'
+    directory: '/'
     schedule:
-      interval: "weekly"
+      interval: 'weekly'
     commit-message:
-      prefix: "chore"
+      prefix: 'chore'
+
+  # apps/web
+  - package-ecosystem: 'npm'
+    directory: '/apps/web'
+    schedule:
+      interval: 'weekly'
+    commit-message:
+      prefix: 'chore'
+
+  # apps/admin
+  - package-ecosystem: 'npm'
+    directory: '/apps/admin'
+    schedule:
+      interval: 'weekly'
+    commit-message:
+      prefix: 'chore'
+
+  # packages/eslint-config
+  - package-ecosystem: 'npm'
+    directory: '/packages/eslint-config'
+    schedule:
+      interval: 'weekly'
+    commit-message:
+      prefix: 'chore'
+
+  # packages/tailwind-config
+  - package-ecosystem: 'npm'
+    directory: '/packages/tailwind-config'
+    schedule:
+      interval: 'weekly'
+    commit-message:
+      prefix: 'chore'
+
+  # packages/typescript-config
+  - package-ecosystem: 'npm'
+    directory: '/package/typescript-config'
+    schedule:
+      interval: 'weekly'
+    commit-message:
+      prefix: 'chore'
