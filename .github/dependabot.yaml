@@ -5,99 +5,45 @@ updates:
     directory: '/'
     schedule:
       interval: 'weekly'
-    versioning-strategy: increase-if-necessary
     commit-message:
       prefix: 'chore'
-    # patch 自動合併
-    automerge: true
-    #只允許 patch 自動合併
-    ignore:
-      - dependency-name: '*'
-        update-types:
-          - 'version-update:semver-minor'
-          - 'version-update:semver-major'
 
   # apps/web
   - package-ecosystem: 'npm'
     directory: '/apps/web'
     schedule:
       interval: 'weekly'
-    versioning-strategy: increase-if-necessary
     commit-message:
       prefix: 'chore'
-    # patch 自動合併
-    automerge: true
-    #只允許 patch 自動合併
-    ignore:
-      - dependency-name: '*'
-        update-types:
-          - 'version-update:semver-minor'
-          - 'version-update:semver-major'
 
   # apps/admin
   - package-ecosystem: 'npm'
     directory: '/apps/admin'
     schedule:
       interval: 'weekly'
-    versioning-strategy: increase-if-necessary
     commit-message:
       prefix: 'chore'
-    # patch 自動合併
-    automerge: true
-    #只允許 patch 自動合併
-    ignore:
-      - dependency-name: '*'
-        update-types:
-          - 'version-update:semver-minor'
-          - 'version-update:semver-major'
 
   # packages/eslint-config
   - package-ecosystem: 'npm'
     directory: '/packages/eslint-config'
     schedule:
       interval: 'weekly'
-    versioning-strategy: increase-if-necessary
     commit-message:
       prefix: 'chore'
-    # patch 自動合併
-    automerge: true
-    #只允許 patch 自動合併
-    ignore:
-      - dependency-name: '*'
-        update-types:
-          - 'version-update:semver-minor'
-          - 'version-update:semver-major'
 
   # packages/tailwind-config
   - package-ecosystem: 'npm'
     directory: '/packages/tailwind-config'
     schedule:
       interval: 'weekly'
-    versioning-strategy: increase-if-necessary
     commit-message:
       prefix: 'chore'
-    # patch 自動合併
-    automerge: true
-    #只允許 patch 自動合併
-    ignore:
-      - dependency-name: '*'
-        update-types:
-          - 'version-update:semver-minor'
-          - 'version-update:semver-major'
 
   # packages/typescript-config
   - package-ecosystem: 'npm'
     directory: '/packages/typescript-config'
     schedule:
       interval: 'weekly'
-    versioning-strategy: increase-if-necessary
     commit-message:
       prefix: 'chore'
-    # patch 自動合併
-    automerge: true
-    #只允許 patch 自動合併
-    ignore:
-      - dependency-name: '*'
-        update-types:
-          - 'version-update:semver-minor'
-          - 'version-update:semver-major'
