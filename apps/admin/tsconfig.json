@@ -1,8 +1,9 @@
 {
   "extends": "@pkg/typescript-config/tsconfig.app.json",
   "compilerOptions": {
+    "baseUrl": "./",
     "paths": {
-      "@/*": ["./src"]
+      "@/*": ["./src/*"]
     }
   },
   "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],

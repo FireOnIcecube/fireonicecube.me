@@ -10,15 +10,14 @@
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
-    "build-only": "vite build",
+    "build-only": "vite-ssg build",
     "type-check": "vue-tsc --build",
     "lint": "eslint . --fix",
     "format": "prettier --write src/"
   },
   "dependencies": {
     "pinia": "^3.0.3",
-    "vue": "^3.5.18",
-    "vue-router": "^4.5.1"
+    "vue": "^3.5.18"
   },
   "devDependencies": {
     "@pkg/eslint-config": "workspace:*",
@@ -26,9 +25,12 @@
     "@pkg/typescript-config": "workspace:*",
     "@vitejs/plugin-vue": "^6.0.1",
     "@vitejs/plugin-vue-jsx": "^5.0.1",
+    "@vueuse/head": "^2.0.0",
     "jiti": "^2.4.2",
     "npm-run-all2": "^8.0.4",
     "vite": "^7.0.6",
-    "vite-plugin-vue-devtools": "^8.0.2"
+    "vite-plugin-vue-devtools": "^8.0.2",
+    "vite-ssg": "^28.1.0",
+    "vue-router": "^4.5.1"
   }
 }
