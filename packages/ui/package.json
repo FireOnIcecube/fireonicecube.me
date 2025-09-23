@@ -1,0 +1,10 @@
+{
+  "name": "@pkg/ui",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "@headlessui/vue": "^1.7.23"
+  }
+}
