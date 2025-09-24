@@ -1,0 +1,10 @@
+{
+  "name": "@pkg/utils",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@pkg/typescript-config": "workspace:*"
+  }
+}
