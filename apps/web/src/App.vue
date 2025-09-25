@@ -1,6 +1,10 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+console.log(router.getRoutes().map((r) => ({ name: r.name, path: r.path })))
 </script>
 
 <template>
@@ -11,8 +15,9 @@ import HelloWorld from './components/HelloWorld.vue'
       <HelloWorld msg="You did it!" />
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink :to="{ name: '/HomeView' }">Home</RouterLink>
+        <RouterLink :to="{ name: '/AboutView' }">About</RouterLink>
+        <RouterLink :to="{ name: '/ArticleView' }">1234579</RouterLink>
       </nav>
     </div>
   </header>

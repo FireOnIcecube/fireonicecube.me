@@ -1,7 +1,3 @@
-import Home from '@/views/HomeView.vue'
-import About from '@/views/AboutView.vue'
+import { routes } from 'vue-router/auto-routes'
 
-export default [
-  { path: '/', component: Home },
-  { path: '/about', component: About },
-]
+export default [...routes]

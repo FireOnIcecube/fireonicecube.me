@@ -23,6 +23,7 @@
     "tailwindcss": "^4.1.13",
     "turbo": "^2.5.6",
     "typescript": "~5.9.2",
+    "unplugin-vue-router": "^0.15.0",
     "vue-tsc": "^3.0.7"
   },
   "workspaces": [
@@ -30,6 +31,7 @@
     "packages/*"
   ],
   "dependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
     "fs-extra": "^11.3.2",
     "gray-matter": "^4.0.3"
   }
