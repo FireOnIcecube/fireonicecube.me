@@ -1,10 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
-import { useRouter } from 'vue-router'
-
-const router = useRouter()
-console.log(router.getRoutes().map((r) => ({ name: r.name, path: r.path })))
 </script>
 
 <template>

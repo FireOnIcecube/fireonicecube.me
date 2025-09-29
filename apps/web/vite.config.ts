@@ -12,7 +12,7 @@ import path from 'node:path'
 export default defineConfig({
   plugins: [
     vueRouter({
-      routesFolder: ['src/views', '@pkg/content/articles'],
+      routesFolder: ['src/views'],
       extensions: ['.vue', '.md'],
     }),
     vue({ include: [/\.vue$/, /\.md$/] }),

@@ -33,6 +33,7 @@
   "dependencies": {
     "@vitejs/plugin-vue": "^6.0.1",
     "fs-extra": "^11.3.2",
-    "gray-matter": "^4.0.3"
+    "gray-matter": "^4.0.3",
+    "unplugin-vue-markdown": "^29.2.0"
   }
 }
