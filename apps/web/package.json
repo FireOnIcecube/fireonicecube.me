@@ -16,6 +16,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@pkg/content": "workspace:*",
     "@pkg/utils": "workspace:*",
     "pinia": "^3.0.3",
     "vue": "^3.5.22"
@@ -26,7 +27,6 @@
     "@pkg/typescript-config": "workspace:*",
     "@vitejs/plugin-vue": "^6.0.1",
     "@vitejs/plugin-vue-jsx": "^5.0.1",
-    "@vueuse/head": "^2.0.0",
     "jiti": "^2.6.0",
     "npm-run-all2": "^8.0.4",
     "vite": "^7.1.7",
