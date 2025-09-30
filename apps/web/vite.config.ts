@@ -13,7 +13,6 @@ export default defineConfig({
   plugins: [
     vueRouter({
       routesFolder: ['src/views'],
-      extensions: ['.vue', '.md'],
     }),
     vue({ include: [/\.vue$/, /\.md$/] }),
     vueJsx(),
