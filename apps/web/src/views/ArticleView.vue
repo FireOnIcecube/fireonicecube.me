@@ -2,4 +2,6 @@
 import Test from '@pkg/content/articles/Test.md'
 </script>
 
-<template><Test /></template>
+<template>
+  <div class="prose-slate prose prose-xl"><Test /></div>
+</template>
