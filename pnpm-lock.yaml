@@ -121,9 +121,6 @@ importers:
       '@pkg/content':
         specifier: workspace:*
         version: link:../../packages/content
-      '@pkg/supabase':
-        specifier: workspace:*
-        version: link:../../packages/supabase
       '@pkg/utils':
         specifier: workspace:*
         version: link:../../packages/utils
