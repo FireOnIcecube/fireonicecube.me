@@ -184,7 +184,11 @@ importers:
 
   packages/tailwind-config: {}
 
-  packages/types: {}
+  packages/types:
+    devDependencies:
+      '@pkg/typescript-config':
+        specifier: workspace:*
+        version: link:../typescript-config
 
   packages/typescript-config:
     devDependencies:
