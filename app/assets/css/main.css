@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
-@custom-variant dark (&:where(.dark, .dark *))
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
   /* Background */
@@ -18,5 +18,6 @@
 
   /* Foreground */
   --color-ink: #0f172a;
+  --color-ink-alt: #ffffff;
   --color-ink-muted: #475569;
 }
