@@ -1,9 +1,4 @@
-@import "tailwindcss";
-@plugin "@tailwindcss/typography";
-
-@custom-variant dark (&:where(.dark, .dark *));
-
-@theme {
+:root {
   /* Background */
   --color-surface: #f1f5f9;
   --color-layer: #1e293b;

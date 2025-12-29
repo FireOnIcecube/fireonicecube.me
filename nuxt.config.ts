@@ -1,5 +1,4 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
   modules: [
@@ -9,6 +8,7 @@ export default defineNuxtConfig({
     "@nuxt/hints",
     "@nuxt/icon",
     "@nuxt/image",
+    "@unocss/nuxt",
   ],
   devtools: { enabled: true },
   compatibilityDate: "2024-04-03",
@@ -16,8 +16,6 @@ export default defineNuxtConfig({
   routeRules: {
     "/": { prerender: true },
   },
-  css: ["./app/assets/css/main.css"],
-  vite: {
-    plugins: [tailwindcss()],
-  },
+  css: ["@unocss/reset/tailwind.css", "./app/assets/css/main.css"],
+  vite: {},
 });
