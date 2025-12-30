@@ -16,6 +16,7 @@
     "@nuxt/icon": "2.1.1",
     "@nuxt/image": "2.0.0",
     "@unocss/reset": "^66.5.11",
+    "@vueuse/core": "^14.1.0",
     "better-sqlite3": "^12.5.0",
     "eslint": "^9.39.2",
     "nuxt": "^4.2.2"
@@ -25,6 +26,7 @@
     "@iconify/json": "^2.2.422",
     "@iconify/vue": "^5.0.0",
     "@unocss/nuxt": "66.5.11",
+    "@unocss/preset-attributify": "^66.5.12",
     "@unocss/preset-icons": "^66.5.11",
     "prettier": "^3.7.4",
     "unocss": "^66.5.11"
