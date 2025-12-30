@@ -9,11 +9,24 @@ import {
 } from "unocss";
 
 export default defineConfig({
-  presets: [presetUno(), presetAttributify(), presetTypography()],
+  presets: [
+    presetUno(),
+    presetAttributify(),
+    presetTypography(),
+    presetIcons({
+      scale: 1.2,
+      warn: true,
+      extraProperties: {
+        display: "inline-block",
+        "vertical-align": "middle",
+      },
+    }),
+  ],
   transformers: [
     transformerVariantGroup(), // 支援 hover:(bg-primary text-white)
     transformerDirectives(), // 讓你在 CSS 裡可以用 @apply
   ],
+
   theme: {
     colors: {
       surface: "var(--color-surface)",
