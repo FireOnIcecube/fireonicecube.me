@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     "@nuxt/icon",
     "@nuxt/image",
     "@unocss/nuxt",
+    "unplugin-fonts/nuxt",
   ],
   devtools: { enabled: true },
   compatibilityDate: "2024-04-03",
@@ -18,4 +19,10 @@ export default defineNuxtConfig({
   },
   css: ["@unocss/reset/tailwind.css", "./app/assets/css/main.css"],
   vite: {},
+
+  unfonts: {
+    google: {
+      families: ["Noto Sans TC"],
+    },
+  },
 });

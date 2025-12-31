@@ -29,6 +29,7 @@
     "@unocss/preset-attributify": "^66.5.12",
     "@unocss/preset-icons": "^66.5.11",
     "prettier": "^3.7.4",
-    "unocss": "^66.5.11"
+    "unocss": "^66.5.11",
+    "unplugin-fonts": "^1.4.0"
   }
 }

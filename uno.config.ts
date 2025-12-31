@@ -28,6 +28,9 @@ export default defineConfig({
   ],
 
   theme: {
+    fontFamily: {
+      sans: ["var(--font-sans)"],
+    },
     colors: {
       surface: "var(--color-surface)",
       layer: "var(--color-layer)",
