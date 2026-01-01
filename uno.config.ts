@@ -31,18 +31,48 @@ export default defineConfig({
     fontFamily: {
       sans: ["var(--font-sans)"],
     },
-    colors: {
+
+    backgroundColor: {
       surface: "var(--color-surface)",
       layer: "var(--color-layer)",
       component: "var(--color-component)",
-      primary: "var(--color-primary)",
-      accent: "var(--color-accent)",
-      line: "var(--color-line)",
+    },
+
+    borderWidth: {
+      thin: "var(--border-thin)",
+      medium: "var(--border-medium)",
+      thick: "var(--border-thick)",
+    },
+    borderColor: {
+      DEFAULT: "var(--color-line)",
+      muted: "var(--color-line-muted)",
+    },
+    divideColor: {
+      DEFAULT: "var(--color-line-muted)",
+    },
+
+    textColor: {
       ink: {
         DEFAULT: "var(--color-ink)",
         alt: "var(--color-ink-alt)",
         muted: "var(--color-ink-muted)",
       },
+    },
+
+    colors: {
+      primary: "var(--color-primary)",
+      accent: "var(--color-accent)",
+      line: "var(--color-line)",
+    },
+
+    fontSize: {
+      body: "var(--text-body)",
+      caption: "var(--text-caption)",
+      title: "var(--text-title)",
+      subtitle: "var(--text-subtitle)",
+      h3: "var(--text-h3)",
+      h4: "var(--text-h4)",
+      h5: "var(--text-h5)",
     },
   },
   shortcuts: [],

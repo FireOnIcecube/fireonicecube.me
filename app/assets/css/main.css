@@ -18,7 +18,22 @@
     --color-ink-alt: #ffffff;
     --color-ink-muted: #475569;
 
+    /* Font */
     --font-sans: "Noto Sans TC";
+
+    /* Text */
+    --text-body: clamp(14px, 4vw, 20px);
+    --text-caption: clamp(12px, 3vw, 16px);
+    --text-title: clamp(24px, 6vw, 32px);
+    --text-subtitle: clamp(20px, 5vw, 28px);
+    --text-h3: clamp(18px, 4.5vw, 24px);
+    --text-h4: clamp(16px, 4vw, 22px);
+    --text-h5: clamp(14px, 3.5vw, 20px);
+
+    /* Border Width */
+    --border-thin: 1px;
+    --border-medium: 2px;
+    --border-thick: 4px;
   }
 }
 
@@ -45,9 +60,48 @@
 
 @layer base {
   body {
-    color: var(--color-ink);
     font-family: var(--font-sans);
+    font-size: var(--text-body);
+    color: var(--color-ink);
     border-color: var(--color-line);
+  }
+
+  small,
+  .caption {
+    font-size: var(--text-caption);
+    color: var(--color-ink-muted);
+  }
+
+  h1 {
+    font-size: var(--text-title);
+    font-weight: 700;
+  }
+  h2 {
+    font-size: var(--text-subtitle);
+    font-weight: 700;
+  }
+  h3 {
+    font-size: var(--text-h3);
+    font-weight: 600;
+  }
+  h4 {
+    font-size: var(--text-h4);
+    font-weight: 600;
+  }
+  h5 {
+    font-size: var(--text-h5);
+    font-weight: 500;
+  }
+
+  hr,
+  .border-thin {
+    border-width: var(--border-thin);
+  }
+  .border-medium {
+    border-width: var(--border-medium);
+  }
+  .border-thick {
+    border-width: var(--border-thick);
   }
 }
 
