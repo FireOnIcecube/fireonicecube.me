@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@nuxt/content": "^3.9.0",
-    "@nuxt/eslint": "1.12.1",
+    "@nuxt/eslint": "^1.12.1",
     "@nuxt/fonts": "0.12.1",
     "@nuxt/hints": "1.0.0-alpha.5",
     "@nuxt/icon": "2.1.1",
@@ -25,6 +25,7 @@
   "devDependencies": {
     "@iconify/json": "^2.2.422",
     "@iconify/vue": "^5.0.0",
+    "@unocss/eslint-config": "^66.5.12",
     "@unocss/nuxt": "66.5.11",
     "@unocss/preset-attributify": "^66.5.12",
     "@unocss/preset-icons": "^66.5.11",

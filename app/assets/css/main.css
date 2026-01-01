@@ -22,8 +22,8 @@
     --font-sans: "Noto Sans TC";
 
     /* Text */
-    --text-body: clamp(14px, 4vw, 20px);
-    --text-caption: clamp(12px, 3vw, 16px);
+    --text-body: clamp(16px, 4vw, 20px);
+    --text-caption: clamp(14px, 3vw, 20px);
     --text-title: clamp(24px, 6vw, 32px);
     --text-subtitle: clamp(20px, 5vw, 28px);
     --text-h3: clamp(18px, 4.5vw, 24px);
