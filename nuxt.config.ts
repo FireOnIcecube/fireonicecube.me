@@ -22,7 +22,13 @@ export default defineNuxtConfig({
 
   unfonts: {
     google: {
-      families: ["Noto Sans TC"],
+      families: [
+        "Noto Sans TC",
+        {
+          name: "Inter",
+          styles: "wght@700;800;900",
+        },
+      ],
     },
   },
 });

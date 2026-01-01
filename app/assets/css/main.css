@@ -20,6 +20,7 @@
 
     /* Font */
     --font-sans: "Noto Sans TC";
+    --font-inter: "Inter";
 
     /* Text */
     --text-body: clamp(16px, 4vw, 20px);

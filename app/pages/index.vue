@@ -15,7 +15,7 @@ useSeoMeta({
       <img src="@/assets/images/avatar.webp" class="object-bottom" />
     </div>
 
-    <div class="mt-4 text-center">
+    <div class="font-inter mt-4 text-center">
       <h1 class="text-title text-accent font-bold">Hello I'm</h1>
       <h1 class="text-title text-primary font-bold">FireOnIcecube</h1>
 

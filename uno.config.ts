@@ -30,6 +30,7 @@ export default defineConfig({
   theme: {
     fontFamily: {
       sans: ["var(--font-sans)"],
+      inter: ["var(--font-inter)"],
     },
 
     backgroundColor: {
