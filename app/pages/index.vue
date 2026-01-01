@@ -19,7 +19,7 @@ useSeoMeta({
         <img src="@/assets/images/avatar.webp" class="object-bottom" />
       </div>
 
-      <div class="font-inter mt-4 text-center">
+      <div class="mt-4 text-center font-inter">
         <h1 class="text-title font-bold leading-none">
           <span class="block text-accent">Hello I'm</span>
           <span class="block text-primary">FireOnIcecube</span>
@@ -33,7 +33,7 @@ useSeoMeta({
 
     <hr class="border-thick my-6 border-t" />
     <section class="px-4 text-center">
-      <h1 class="font-inter text-title text-primary font-bold">My Story</h1>
+      <h1 class="text-title text-primary font-bold font-inter">My Story</h1>
 
       <article class="mt-2 rounded-lg bg-component px-7 py-2">
         <p class="text-body text-ink-muted leading-loose space-y-2">

@@ -11,7 +11,7 @@ import { Icon } from "@iconify/vue";
     <main class="flex-1">
       <slot />
     </main>
-    <footer class="bg-primary text-center">
+    <footer class="mt-12 bg-primary text-center">
       <p class="py-2 text-sm text-ink-alt">©2025 FireonIcecube</p>
     </footer>
   </div>
