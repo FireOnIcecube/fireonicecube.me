@@ -12,10 +12,10 @@ useSeoMeta({
 <template>
   <div>
     <section
-      class="mt-7 flex flex-col justify-between"
-      md="justify-center items-center flex-row px-10"
+      class="mx-auto mt-7 flex flex-col max-w-3xl items-center justify-between"
+      md="flex-row px-10 "
     >
-      <div class="bg-component mx-auto rounded-full size-40 overflow-hidden">
+      <div class="bg-component rounded-full size-40 overflow-hidden">
         <img src="@/assets/images/avatar.webp" class="size-full" />
       </div>
 
@@ -33,16 +33,17 @@ useSeoMeta({
 
     <hr class="my-6 border-t border-line" />
 
-    <section class="px-4 text-center">
+    <section class="mx-auto px-4 text-center max-w-3xl">
       <h2 class="text-subtitle text-primary font-bold font-inter">My Story</h2>
 
-      <article class="bg-component mt-2 px-7 py-2 rounded-lg">
+      <article class="bg-component mt-2 p-2 px-7 rounded-lg" md="p-12">
         <p class="text-ink-muted text-body leading-loose space-y-2">
           <span class="block">
             我在設計跟工程的交界地待著，喜歡把漂亮的 Figma
             設計做成既順手又細膩的網頁。常用 Vue/React +
             Tailwind，把複雜的互動拆成單純好維護的元件。
           </span>
+
           <span class="block">
             空閒時會看配色、做個小動畫練習，或畫幾張插圖放到作品集。
           </span>
