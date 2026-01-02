@@ -8,7 +8,7 @@ import { Icon } from "@iconify/vue";
       class="bg-component px-6 py-3 flex gap-x-4 max-h-[80px] items-center justify-between"
     >
       <div class="flex gap-x-0.5 items-center">
-        <div class="shrink-0 size-10">
+        <div class="shrink-0 size-10 -mt-2">
           <img
             src="@/assets/images/logo.svg"
             class="size-full object-contain"
@@ -16,7 +16,7 @@ import { Icon } from "@iconify/vue";
           />
         </div>
 
-        <div class="mt-2 h-5">
+        <div class="h-5">
           <img
             src="@/assets/images/fireonicecube.svg"
             class="size-full object-contain"
@@ -25,7 +25,7 @@ import { Icon } from "@iconify/vue";
         </div>
       </div>
 
-      <Icon icon="ci:hamburger-lg" class="text-primary mt-2 shrink-0 size-9" />
+      <Icon icon="ci:hamburger-lg" class="text-primary shrink-0 size-9" />
     </header>
     <main class="flex-1">
       <slot />
