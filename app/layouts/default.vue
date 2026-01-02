@@ -4,9 +4,28 @@ import { Icon } from "@iconify/vue";
 
 <template>
   <div class="bg-surface flex flex-col min-h-dvh">
-    <header class="bg-component px-2 py-4 flex items-center justify-between">
-      <div>LOGO</div>
-      <Icon icon="ci:hamburger-lg" class="text-primary size-8" />
+    <header
+      class="bg-component px-4 py-3 flex gap-x-4 max-h-[80px] items-center justify-between"
+    >
+      <div class="flex gap-x-0.5 items-center">
+        <div class="shrink-0 size-10">
+          <img
+            src="@/assets/images/logo.svg"
+            class="size-full object-contain"
+            alt="logo icon"
+          />
+        </div>
+
+        <div class="mt-2 h-5">
+          <img
+            src="@/assets/images/fireonicecube.svg"
+            class="size-full object-contain"
+            alt="FireOnIcecube"
+          />
+        </div>
+      </div>
+
+      <Icon icon="ci:hamburger-lg" class="text-primary mt-2 shrink-0 size-10" />
     </header>
     <main class="flex-1">
       <slot />

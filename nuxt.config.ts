@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     "@unocss/nuxt",
     "unplugin-fonts/nuxt",
   ],
-  devtools: { enabled: true },
+  devtools: { enabled: false },
   compatibilityDate: "2024-04-03",
 
   routeRules: {

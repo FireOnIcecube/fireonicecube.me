@@ -16,7 +16,7 @@ useSeoMeta({
       md="justify-center flex-row px-10"
     >
       <div class="bg-component mx-auto rounded-full size-40 overflow-hidden">
-        <img src="@/assets/images/avatar.webp" class="object-bottom" />
+        <img src="@/assets/images/avatar.webp" class="size-full" />
       </div>
 
       <div class="font-inter mt-4 text-center">
