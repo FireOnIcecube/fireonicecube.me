@@ -3,14 +3,18 @@ import {
   presetAttributify,
   presetIcons,
   presetTypography,
-  presetUno,
   transformerVariantGroup,
   transformerDirectives,
+  presetWind4,
 } from "unocss";
 
 export default defineConfig({
   presets: [
-    presetUno(),
+    presetWind4({
+      preflights: {
+        reset: true,
+      },
+    }),
     presetAttributify(),
     presetTypography(),
     presetIcons({
@@ -28,52 +32,39 @@ export default defineConfig({
   ],
 
   theme: {
-    fontFamily: {
+    font: {
       sans: ["var(--font-sans)"],
       inter: ["var(--font-inter)"],
-    },
-
-    backgroundColor: {
-      surface: "var(--color-surface)",
-      layer: "var(--color-layer)",
-      component: "var(--color-component)",
-    },
-
-    borderWidth: {
-      thin: "var(--border-thin)",
-      medium: "var(--border-medium)",
-      thick: "var(--border-thick)",
-    },
-    borderColor: {
-      DEFAULT: "var(--color-line)",
-      muted: "var(--color-line-muted)",
-    },
-    divideColor: {
-      DEFAULT: "var(--color-line-muted)",
-    },
-
-    textColor: {
-      ink: {
-        DEFAULT: "var(--color-ink)",
-        alt: "var(--color-ink-alt)",
-        muted: "var(--color-ink-muted)",
-      },
     },
 
     colors: {
       primary: "var(--color-primary)",
       accent: "var(--color-accent)",
-      line: "var(--color-line)",
+
+      surface: "var(--color-surface)",
+      layer: "var(--color-layer)",
+      component: "var(--color-component)",
+
+      ink: {
+        DEFAULT: "var(--color-ink)",
+        alt: "var(--color-ink-alt)",
+        muted: "var(--color-ink-muted)",
+      },
+
+      line: {
+        DEFAULT: "var(--color-line)",
+        muted: "var(--color-line-muted)",
+      },
     },
 
-    fontSize: {
-      body: "var(--text-body)",
-      caption: "var(--text-caption)",
-      title: "var(--text-title)",
-      subtitle: "var(--text-subtitle)",
-      h3: "var(--text-h3)",
-      h4: "var(--text-h4)",
-      h5: "var(--text-h5)",
+    text: {
+      body: { fontSize: "var(--text-body)" },
+      caption: { fontSize: "var(--text-caption)" },
+      title: { fontSize: "var(--text-title)" },
+      subtitle: { fontSize: "var(--text-subtitle)" },
+      h3: { fontSize: "var(--text-h3)" },
+      h4: { fontSize: "var(--text-h4)" },
+      h5: { fontSize: "var(--text-h5)" },
     },
   },
   shortcuts: [],

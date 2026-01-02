@@ -4,7 +4,6 @@ export default defineNuxtConfig({
   modules: [
     "@nuxt/content",
     "@nuxt/eslint",
-    "@nuxt/fonts",
     "@nuxt/hints",
     "@nuxt/icon",
     "@nuxt/image",
@@ -17,7 +16,7 @@ export default defineNuxtConfig({
   routeRules: {
     "/": { prerender: true },
   },
-  css: ["@unocss/reset/tailwind.css", "./app/assets/css/main.css"],
+  css: ["./app/assets/css/main.css"],
   vite: {},
 
   unfonts: {
