@@ -31,7 +31,7 @@ import { Icon } from "@iconify/vue";
       <slot />
     </main>
     <footer class="mt-12 py-2 text-center bg-primary">
-      <p class="text-ink-alt text-sm">©2026 FireonIcecube</p>
+      <p class="text-ink-alt text-caption">©2026 FireonIcecube</p>
     </footer>
   </div>
 </template>

@@ -13,7 +13,7 @@ useSeoMeta({
   <div>
     <section
       class="mt-7 flex flex-col justify-between"
-      md="justify-center flex-row px-10"
+      md="justify-center items-center flex-row px-10"
     >
       <div class="bg-component mx-auto rounded-full size-40 overflow-hidden">
         <img src="@/assets/images/avatar.webp" class="size-full" />
@@ -25,7 +25,7 @@ useSeoMeta({
           <span class="text-primary block">FireOnIcecube</span>
         </h1>
 
-        <p class="text-ink-muted text-caption mt-4">
+        <p class="text-ink-muted text-caption mt-2">
           一個把設計變得會動、又好用的 Coding 怪咖
         </p>
       </div>
