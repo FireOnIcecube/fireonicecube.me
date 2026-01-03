@@ -34,7 +34,7 @@ useSeoMeta({
     <hr class="my-6 border-t border-line" />
 
     <section class="mx-auto px-4 text-center max-w-3xl">
-      <h2 class="text-subtitle text-primary font-bold font-inter">My Story</h2>
+      <h2 class="text-subtitle text-primary font-bold font-inter">My Lore</h2>
 
       <article class="mt-2 p-2 px-7 rounded-lg bg-component" md="p-12">
         <p class="text-body text-ink-muted leading-loose space-y-2">
@@ -54,5 +54,11 @@ useSeoMeta({
         </p>
       </article>
     </section>
+
+    <!-- <section class="mx-auto mt-12 px-4 text-center max-w-3xl">
+      <h2 class="text-subtitle text-primary font-bold font-inter">My Social</h2>
+    </section> -->
   </div>
 </template>
+
+<style lang="postcss" scoped></style>
