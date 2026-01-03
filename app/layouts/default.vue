@@ -5,7 +5,7 @@ import { Icon } from "@iconify/vue";
 <template>
   <div class="bg-surface flex flex-col min-h-dvh">
     <header
-      class="bg-component px-6 py-3 flex gap-x-4 max-h-[80px] items-center justify-between"
+      class="px-6 py-3 bg-component flex gap-x-4 items-center justify-between"
     >
       <div class="flex gap-x-0.5 items-center">
         <div class="shrink-0 size-10 -mt-2">
@@ -31,7 +31,7 @@ import { Icon } from "@iconify/vue";
       <slot />
     </main>
     <footer class="mt-12 py-2 text-center bg-primary">
-      <p class="text-ink-alt text-caption">©2026 FireonIcecube</p>
+      <p class="text-caption text-ink-alt">©2026 FireonIcecube</p>
     </footer>
   </div>
 </template>

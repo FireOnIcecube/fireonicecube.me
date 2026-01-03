@@ -15,7 +15,7 @@ useSeoMeta({
       class="mx-auto mt-7 flex flex-col max-w-3xl items-center justify-between"
       md="flex-row px-10 "
     >
-      <div class="bg-component rounded-full size-40 overflow-hidden">
+      <div class="rounded-full bg-component size-40 overflow-hidden">
         <img src="@/assets/images/avatar.webp" class="size-full" />
       </div>
 
@@ -25,7 +25,7 @@ useSeoMeta({
           <span class="text-primary block">FireOnIcecube</span>
         </h1>
 
-        <p class="text-ink-muted text-caption mt-2">
+        <p class="text-caption text-ink-muted mt-2">
           一個把設計變得會動、又好用的 Coding 怪咖
         </p>
       </div>
@@ -36,8 +36,8 @@ useSeoMeta({
     <section class="mx-auto px-4 text-center max-w-3xl">
       <h2 class="text-subtitle text-primary font-bold font-inter">My Story</h2>
 
-      <article class="bg-component mt-2 p-2 px-7 rounded-lg" md="p-12">
-        <p class="text-ink-muted text-body leading-loose space-y-2">
+      <article class="mt-2 p-2 px-7 rounded-lg bg-component" md="p-12">
+        <p class="text-body text-ink-muted leading-loose space-y-2">
           <span class="block">
             我在設計跟工程的交界地待著，喜歡把漂亮的 Figma
             設計做成既順手又細膩的網頁。常用 Vue/React +
