@@ -17,14 +17,7 @@ export default defineConfig({
     }),
     presetAttributify(),
     presetTypography(),
-    presetIcons({
-      scale: 1.2,
-      warn: true,
-      extraProperties: {
-        display: "inline-block",
-        "vertical-align": "middle",
-      },
-    }),
+    presetIcons(),
   ],
   transformers: [
     transformerVariantGroup(), // 支援 hover:(bg-primary text-white)
