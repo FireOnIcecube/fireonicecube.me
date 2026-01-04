@@ -12,7 +12,7 @@ export default defineConfig({
   presets: [
     presetWind4({
       preflights: {
-        reset: true,
+        reset: false,
       },
     }),
     presetAttributify(),
@@ -42,6 +42,10 @@ export default defineConfig({
         DEFAULT: "var(--color-ink)",
         alt: "var(--color-ink-alt)",
         muted: "var(--color-ink-muted)",
+      },
+
+      link: {
+        DEFAULT: "var(--color-link)",
       },
 
       line: {
