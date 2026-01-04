@@ -1,5 +1,3 @@
-@import "./preflight.tailwind.css";
-
 @layer variables {
   :root {
     /* Background */

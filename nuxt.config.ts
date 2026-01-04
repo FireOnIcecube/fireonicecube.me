@@ -16,7 +16,7 @@ export default defineNuxtConfig({
   routeRules: {
     "/": { prerender: true },
   },
-  css: ["./app/assets/css/main.css"],
+  css: ["./app/assets/css/preflight.tailwind.css", "./app/assets/css/main.css"],
   vite: {},
 
   unfonts: {
