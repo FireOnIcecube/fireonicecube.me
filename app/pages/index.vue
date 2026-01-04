@@ -55,6 +55,22 @@ useSeoMeta({
       </article>
     </section>
 
+    <section class="mx-auto mt-12 px-4 max-w-3xl">
+      <h2 class="text-subtitle text-primary font-bold font-inter text-center">
+        My Social
+      </h2>
+
+      <div class="mt-8 flex justify-around">
+        <a
+          href="https://github.com/FireOnIcecube"
+          target="_blank"
+          class="px-2 py-1 rounded-md bg-gray-200 inline-flex gap-x-1 items-center dark:bg-gray-700"
+        >
+          <span class="i-mdi:github size-8 inline-block" />
+          <span class="tracking-wide">Github</span>
+        </a>
+      </div>
+    </section>
     <!-- <section class="mx-auto mt-12 px-4 text-center max-w-3xl">
       <h2 class="text-subtitle text-primary font-bold font-inter">My Social</h2>
     </section> -->

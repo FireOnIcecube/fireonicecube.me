@@ -19,6 +19,7 @@
     --color-ink-muted: #475569;
 
     --color-link: #475569;
+    --color-link-hover: #15191f;
 
     /* Font */
     --font-sans: "Noto Sans TC";
@@ -58,6 +59,8 @@
     /* Foreground */
     --color-ink: #f8fafc;
     --color-ink-muted: #94a3b8;
+    --color-link: #94a3b8;
+    --color-link-hover: #f8fafc;
   }
 }
 
@@ -98,6 +101,12 @@
 
   a {
     color: var(--color-link);
+    transition: color 0.2s ease-in-out;
+  }
+
+  a:hover {
+    color: var(--color-link-hover);
+    text-decoration: underline;
   }
 
   hr,

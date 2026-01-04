@@ -3,7 +3,7 @@ import { Icon } from "@iconify/vue";
 </script>
 
 <template>
-  <div class="bg-surface flex flex-col min-h-dvh">
+  <div class="bg-surface flex flex-col overflow-hidden min-h-dvh">
     <header class="px-6 py-3 bg-component">
       <div class="mx-auto flex gap-x-4 max-w-5xl items-center justify-between">
         <AppLogo />
