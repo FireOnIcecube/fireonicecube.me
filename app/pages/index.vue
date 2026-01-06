@@ -70,6 +70,11 @@ useSeoMeta({
           <span class="tracking-wide">Github</span>
         </a>
       </div>
+
+      <p class="mt-6 flex gap-x-2 justify-center">
+        <span class="text-ink-muted">也能 mail 給我: </span>
+        <span>fireonicecube@gmail.com </span>
+      </p>
     </section>
   </div>
 </template>
