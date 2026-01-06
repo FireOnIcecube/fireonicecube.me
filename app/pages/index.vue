@@ -60,7 +60,7 @@ useSeoMeta({
         My Social
       </h2>
 
-      <div class="mt-8 flex justify-around">
+      <div class="mt-4 flex justify-around">
         <a
           href="https://github.com/FireOnIcecube"
           target="_blank"
