@@ -26,7 +26,7 @@ useSeoMeta({
         </h1>
 
         <p class="text-caption text-ink-muted mt-2">
-          一個把設計變得會動、又好用的 Coding 怪咖
+          一個把設計變得會動又好用的 Coding 怪咖
         </p>
       </div>
     </section>
@@ -45,7 +45,7 @@ useSeoMeta({
           </span>
 
           <span class="block">
-            空閒時會看配色、做個小動畫練習，或畫幾張插圖放到作品集。
+            空閒時會寫寫技術文章、做個小動畫練習，或畫幾張插圖放到作品集。
           </span>
 
           <span class="block">
