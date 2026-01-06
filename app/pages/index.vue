@@ -71,9 +71,6 @@ useSeoMeta({
         </a>
       </div>
     </section>
-    <!-- <section class="mx-auto mt-12 px-4 text-center max-w-3xl">
-      <h2 class="text-subtitle text-primary font-bold font-inter">My Social</h2>
-    </section> -->
   </div>
 </template>
 
