@@ -72,8 +72,8 @@ useSeoMeta({
       </div>
 
       <p class="mt-6 flex gap-x-2 justify-center">
-        <span class="text-ink-muted">也能 mail 給我: </span>
-        <span>fireonicecube@gmail.com </span>
+        <span class="text-ink-muted">歡迎 mail : </span>
+        <a href="mailto:fireonicecube@gmail.com">fireonicecube@gmail.com </a>
       </p>
     </section>
   </div>

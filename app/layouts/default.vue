@@ -21,3 +21,5 @@ import { Icon } from "@iconify/vue";
     </footer>
   </div>
 </template>
+
+<style lang="postcss" scoped></style>
