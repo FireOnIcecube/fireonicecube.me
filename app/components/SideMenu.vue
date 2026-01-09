@@ -1,0 +1,29 @@
+<script lang="ts" setup>
+import { Icon } from "@iconify/vue";
+const { isOpen, close } = useSidemenu();
+</script>
+<template>
+  <!-- Overlay -->
+  <div v-show="isOpen" class="bg-black/40 inset-0 fixed z-50" @click="close" />
+
+  <!-- Menu -->
+  <aside
+    class="px-6 py-3 bg-component w-64 transition-transform duration-300 ease-out inset-y-0 right-0 fixed z-50"
+    :class="isOpen ? 'translate-x-0' : 'translate-x-full'"
+  >
+    <div class="flex justify-end">
+      <button @click="close">
+        <Icon
+          icon="ci:close-md"
+          class="text-primary shrink-0 size-9 cursor-pointer"
+        />
+      </button>
+    </div>
+    <nav class="flex flex-col items-center">
+      <div class="mt-8 space-y-4">
+        <NuxtLink to="/" class="text-xl block">Home</NuxtLink>
+        <NuxtLink to="/about" class="text-xl block">About</NuxtLink>
+      </div>
+    </nav>
+  </aside>
+</template>
