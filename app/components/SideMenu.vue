@@ -19,10 +19,11 @@ const { isOpen, close } = useSidemenu();
         />
       </button>
     </div>
-    <nav class="flex flex-col items-center">
-      <div class="mt-8 space-y-4">
+    <nav class="flex flex-col">
+      <div class="mt-8 flex flex-col gap-y-8 truncate items-center">
         <NuxtLink to="/" class="text-xl block">Home</NuxtLink>
         <NuxtLink to="/about" class="text-xl block">About</NuxtLink>
+        <NuxtLink to="/blog" class="text-xl block">Blog</NuxtLink>
       </div>
     </nav>
   </aside>
