@@ -7,22 +7,34 @@ const { toggle } = useSidemenu();
 
 <template>
   <div class="bg-surface flex flex-col overflow-hidden min-h-dvh">
-    <header class="py-4 bg-component flex gap-x-4 items-center justify-around">
-      <NuxtLink to="/">
-        <AppLogo />
-      </NuxtLink>
+    <header
+      class="px-4 py-4 bg-component flex items-center justify-between"
+      lg="px-8"
+    >
+      <NuxtLink to="/" class="flex-1 shrink-0"> <AppLogo /> </NuxtLink>
 
-      <nav class="text-lg hidden" lg="flex gap-x-8 items-center">
+      <nav
+        class="text-lg flex-1 hidden"
+        lg="flex justify-center gap-x-8 items-center"
+      >
         <NuxtLink to="/" class="block">Home</NuxtLink>
         <NuxtLink to="/about" class="block">About</NuxtLink>
         <NuxtLink to="/blog" class="block">Blog</NuxtLink>
       </nav>
-      <Icon
-        icon="ci:hamburger-lg"
-        class="text-primary shrink-0 size-9 cursor-pointer"
-        lg="hidden"
-        @click="toggle"
-      />
+
+      <div class="flex flex-1 gap-x-2 justify-end">
+        <Icon
+          icon="material-symbols:dark-mode-rounded"
+          class="text-primary shrink-0 size-8 cursor-pointer"
+        />
+        <Icon
+          icon="ci:hamburger-lg"
+          class="text-primary shrink-0 size-8 cursor-pointer"
+          lg="hidden"
+          @click="toggle"
+        />
+      </div>
+
       <SideMenu />
     </header>
 
