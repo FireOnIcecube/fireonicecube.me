@@ -22,7 +22,7 @@ const { toggle } = useSidemenu();
         <NuxtLink to="/blog" class="block">Blog</NuxtLink>
       </nav>
 
-      <div class="flex flex-1 gap-x-2 justify-end">
+      <div class="flex flex-1 gap-x-4 justify-end">
         <Icon
           icon="material-symbols:dark-mode-rounded"
           class="text-primary shrink-0 size-8 cursor-pointer"
