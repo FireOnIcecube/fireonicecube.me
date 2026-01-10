@@ -28,3 +28,5 @@ const { isOpen, close } = useSidemenu();
     </nav>
   </aside>
 </template>
+
+<style lang="postcss" scoped></style>

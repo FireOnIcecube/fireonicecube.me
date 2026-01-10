@@ -102,11 +102,16 @@
   a {
     color: var(--color-link);
     transition: color 0.2s ease-in-out;
+    @apply select-none;
   }
 
   a:hover {
     color: var(--color-link-hover);
     text-decoration: underline;
+  }
+
+  a.router-link-active {
+    @apply text-accent font-bold !important;
   }
 
   hr,
