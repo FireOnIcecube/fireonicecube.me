@@ -13,9 +13,15 @@ const { toggle } = useSidemenu();
           <AppLogo />
         </NuxtLink>
 
+        <nav class="text-lg hidden" lg="flex gap-x-8 items-center">
+          <NuxtLink to="/" class="block">Home</NuxtLink>
+          <NuxtLink to="/about" class="block">About</NuxtLink>
+          <NuxtLink to="/blog" class="block">Blog</NuxtLink>
+        </nav>
         <Icon
           icon="ci:hamburger-lg"
           class="text-primary shrink-0 size-9 cursor-pointer"
+          lg="hidden"
           @click="toggle"
         />
       </div>

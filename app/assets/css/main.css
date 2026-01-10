@@ -111,7 +111,7 @@
   }
 
   a.router-link-active {
-    @apply text-accent font-bold !important;
+    @apply text-accent font-bold;
   }
 
   hr,

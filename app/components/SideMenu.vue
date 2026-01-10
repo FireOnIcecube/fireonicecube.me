@@ -4,11 +4,15 @@ const { isOpen, close } = useSidemenu();
 </script>
 <template>
   <!-- Overlay -->
-  <div v-show="isOpen" class="bg-black/40 inset-0 fixed z-50" @click="close" />
+  <div
+    v-show="isOpen"
+    class="bg-black/40 inset-0 fixed z-50 backdrop-blur-xs"
+    @click="close"
+  />
 
   <!-- Menu -->
   <aside
-    class="px-6 py-3 bg-component w-64 transition-transform duration-300 ease-out inset-y-0 right-0 fixed z-50"
+    class="px-6 py-3 bg-surface w-64 shadow-lg transition-transform duration-300 ease-out inset-y-0 right-0 fixed z-50"
     :class="isOpen ? 'translate-x-0' : 'translate-x-full'"
   >
     <div class="flex justify-end">
@@ -19,12 +23,10 @@ const { isOpen, close } = useSidemenu();
         />
       </button>
     </div>
-    <nav class="flex flex-col">
-      <div class="mt-8 flex flex-col gap-y-8 truncate items-center">
-        <NuxtLink to="/" class="text-xl block">Home</NuxtLink>
-        <NuxtLink to="/about" class="text-xl block">About</NuxtLink>
-        <NuxtLink to="/blog" class="text-xl block">Blog</NuxtLink>
-      </div>
+    <nav class="mt-8 flex flex-col gap-y-8 truncate items-center">
+      <NuxtLink to="/" class="text-xl block">Home</NuxtLink>
+      <NuxtLink to="/about" class="text-xl block">About</NuxtLink>
+      <NuxtLink to="/blog" class="text-xl block">Blog</NuxtLink>
     </nav>
   </aside>
 </template>
