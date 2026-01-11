@@ -2,6 +2,7 @@
   :root {
     /* Background */
     --color-surface: #f1f5f9;
+    --color-surface-alt: #004097;
     --color-layer: #1e293b;
     --color-component: #ffffff;
 

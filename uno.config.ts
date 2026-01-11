@@ -34,7 +34,10 @@ export default defineConfig({
       primary: "var(--color-primary)",
       accent: "var(--color-accent)",
 
-      surface: "var(--color-surface)",
+      surface: {
+        DEFAULT: "var(--color-surface)",
+        alt: "var(--color-surface-alt)",
+      },
       layer: "var(--color-layer)",
       component: "var(--color-component)",
 
