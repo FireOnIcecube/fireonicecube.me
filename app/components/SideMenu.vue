@@ -25,7 +25,6 @@ const { isOpen, close } = useSidemenu();
     </div>
     <nav class="mt-8 flex flex-col gap-y-8 truncate items-center">
       <NuxtLink to="/" class="text-xl block">Home</NuxtLink>
-      <NuxtLink to="/about" class="text-xl block">About</NuxtLink>
       <NuxtLink to="/blog" class="text-xl block">Blog</NuxtLink>
     </nav>
   </aside>

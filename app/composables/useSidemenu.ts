@@ -1,5 +1,5 @@
 export function useSidemenu() {
-  const isOpen = useState<boolean>("sidemenu-open", () => false);
+  const isOpen = useState<boolean>("is-sidemenu-open", () => false);
 
   const open = () => (isOpen.value = true);
   const close = () => (isOpen.value = false);
