@@ -9,7 +9,15 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@unocss/nuxt",
     "unplugin-fonts/nuxt",
+    "@nuxtjs/i18n",
   ],
+
+  i18n: {
+    locales: [{ code: "en", name: "English", language: "en-US", dir: "ltr" }],
+    strategy: "prefix_except_default",
+    defaultLocale: "en",
+  },
+
   devtools: { enabled: false },
   compatibilityDate: "2024-04-03",
 
