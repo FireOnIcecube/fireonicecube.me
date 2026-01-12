@@ -1,10 +1,10 @@
 <script lang="ts" setup>
 import { Icon } from "@iconify/vue";
 import { useSidemenu } from "@/composables/useSidemenu";
-import { useDarkMode } from "@/composables/useDarkMode";
+import { useColor } from "~/composables/useColorMode";
 
 const { toggle } = useSidemenu();
-const { isDark, toggleMode } = useDarkMode();
+const { colorMode, toggleDarkMode } = useColor();
 </script>
 
 <template>
@@ -28,12 +28,12 @@ const { isDark, toggleMode } = useDarkMode();
       <div class="flex flex-1 gap-x-4 select-none justify-end">
         <Icon
           :icon="
-            isDark
+            colorMode.preference === 'dark'
               ? 'material-symbols:light-mode-rounded'
               : 'material-symbols:dark-mode-rounded'
           "
           class="text-primary shrink-0 size-8 cursor-pointer"
-          @click="() => toggleMode()"
+          @click="() => toggleDarkMode()"
         />
         <Icon
           icon="ci:hamburger-lg"
@@ -49,7 +49,7 @@ const { isDark, toggleMode } = useDarkMode();
     <main class="flex-1">
       <slot />
     </main>
-    <footer class="bg-surface-alt mt-12 py-3 text-center">
+    <footer class="mt-12 py-3 text-center bg-surface-alt">
       <p class="text-caption text-ink-alt">©2026 FireonIcecube</p>
     </footer>
   </div>

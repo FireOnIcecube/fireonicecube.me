@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     "@unocss/nuxt",
     "unplugin-fonts/nuxt",
     "@nuxtjs/i18n",
+    "@nuxtjs/color-mode",
   ],
 
   i18n: {
