@@ -33,6 +33,7 @@
     "@unocss/preset-wind4": "^66.5.12",
     "prettier": "^3.7.4",
     "unocss": "^66.5.11",
-    "unplugin-fonts": "^1.4.0"
+    "unplugin-fonts": "^1.4.0",
+    "zod": "^4.3.5"
   }
 }
