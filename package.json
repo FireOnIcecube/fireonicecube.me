@@ -18,12 +18,12 @@
     "@nuxtjs/i18n": "^10.2.1",
     "@vueuse/core": "^14.1.0",
     "better-sqlite3": "^12.5.0",
-    "eslint": "^9.39.2",
     "modern-normalize": "^3.0.1",
     "nuxt": "^4.2.2"
   },
   "packageManager": "pnpm@10.26.2+sha512.0e308ff2005fc7410366f154f625f6631ab2b16b1d2e70238444dd6ae9d630a8482d92a451144debc492416896ed16f7b114a86ec68b8404b2443869e68ffda6",
   "devDependencies": {
+    "@eslint/js": "^9.39.2",
     "@iconify/json": "^2.2.422",
     "@iconify/vue": "^5.0.0",
     "@unocss/eslint-config": "^66.5.12",
@@ -31,7 +31,10 @@
     "@unocss/preset-attributify": "^66.5.12",
     "@unocss/preset-icons": "^66.5.11",
     "@unocss/preset-wind4": "^66.5.12",
+    "eslint": "^9.39.2",
     "prettier": "^3.7.4",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.53.0",
     "unocss": "^66.5.11",
     "unplugin-fonts": "^1.4.0",
     "zod": "^4.3.5"
