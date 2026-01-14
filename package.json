@@ -26,6 +26,7 @@
     "@eslint/js": "^9.39.2",
     "@iconify/json": "^2.2.422",
     "@iconify/vue": "^5.0.0",
+    "@typescript-eslint/parser": "^8.53.0",
     "@unocss/eslint-config": "^66.5.12",
     "@unocss/nuxt": "66.5.11",
     "@unocss/preset-attributify": "^66.5.12",
@@ -37,6 +38,7 @@
     "typescript-eslint": "^8.53.0",
     "unocss": "^66.5.11",
     "unplugin-fonts": "^1.4.0",
+    "vue-eslint-parser": "^10.2.0",
     "zod": "^4.3.5"
   }
 }
