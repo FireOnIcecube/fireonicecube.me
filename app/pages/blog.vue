@@ -1,16 +1,13 @@
 <script setup lang="ts">
-const { data: posts } = await useAsyncData("blog", () =>
-  queryCollection("blog").all(),
-);
+import BlogCard from "~/components/BlogCard.vue";
+
+const { data: posts } = await useAsyncData(() => queryCollection("blog").all());
 </script>
 
 <template>
-  <div>
-    <h1>Blog</h1>
-    <ul>
-      <li v-for="post in posts" :key="post.id">
-        <NuxtLink :to="post.path">{{ post.title }}</NuxtLink>
-      </li>
-    </ul>
-  </div>
+  <section class="mx-auto mt-4 flex flex-col gap-y-4 max-w-5xl" lg="mt-12">
+    <template v-for="p in posts" :key="p.id">
+      <BlogCard :post="p" />
+    </template>
+  </section>
 </template>
