@@ -1,4 +1,7 @@
 <script setup lang="ts">
+const { $gsap } = useNuxtApp();
+const boxRef = ref<HTMLElement | null>(null);
+
 const { data: home } = await useAsyncData(() =>
   queryCollection("content").path("/").first(),
 );
@@ -6,6 +9,11 @@ const { data: home } = await useAsyncData(() =>
 useSeoMeta({
   title: home.value?.title,
   description: home.value?.description,
+});
+
+onMounted(() => {
+  if (!boxRef.value) return;
+  $gsap.to(boxRef.value, { x: 100, duration: 1 });
 });
 </script>
 
@@ -76,6 +84,8 @@ useSeoMeta({
         <a href="mailto:fireonicecube@gmail.com">fireonicecube@gmail.com </a>
       </p>
     </section>
+
+    <div ref="boxRef" class="bg-blue-500 h-20 w-20"></div>
   </div>
 </template>
 
