@@ -11,7 +11,6 @@ export default defineNuxtConfig({
     "unplugin-fonts/nuxt",
     "@nuxtjs/i18n",
     "@nuxtjs/color-mode",
-    "v-gsap-nuxt",
   ],
 
   i18n: {
